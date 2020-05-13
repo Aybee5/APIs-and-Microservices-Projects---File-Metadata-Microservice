@@ -3,12 +3,18 @@
 	"version": "0.0.1",
 	"description": "API project for freeCodeCamp",
 	"main": "server.js",
+	"author": "Ibrahim Abdullahi Aliyu",
 	"scripts": {
-		"start": "node server.js"
+		"start": "node server.js",
+		"serve": "nodemon server.js"
 	},
 	"dependencies": {
+		"cors": "^2.8.1",
 		"express": "^5.0.0-alpha.2",
-		"cors": "^2.8.1"
+		"multer": "^1.4.2"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.3"
 	},
 	"engines": {
 		"node": "4.4.5"
